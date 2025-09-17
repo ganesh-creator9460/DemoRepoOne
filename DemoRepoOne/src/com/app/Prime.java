@@ -1,10 +1,12 @@
 package com.app;
-
+import java.util.Scanner;
 public class Prime {
 
 	public static void main(String[] args) {
-		
-		for(int i=2;i<20;i++)
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Num : ");
+		int num = sc.nextInt();
+		for(int i=2;i<num;i++)
 		{
 			for(int j=2;j<i;j++)
 			{
